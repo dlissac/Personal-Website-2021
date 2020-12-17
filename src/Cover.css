@@ -1,0 +1,32 @@
+.cover-page {
+    background-color: #192d9e;
+    min-height: 100vh;
+}
+
+.intro {
+    color: white;
+    padding-top: 40px;
+}
+
+.center {
+    text-align: center;
+    color: white;
+}
+
+.logo{
+    margin-top: -40px;
+}
+
+/* If the screen size is 760px or greater, set padding on cover page icons */
+@media only screen and (min-width: 760px) {
+    div.containerPaddingCover {
+      padding-top: 25vh;
+    }
+}
+
+/* If the screen width is 760px or less, set the intro text as centered */
+@media only screen and (max-width: 760px) {
+    div.intro {
+      text-align: center;
+    }
+}

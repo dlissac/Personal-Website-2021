@@ -1,0 +1,24 @@
+.divPad {
+    padding-top: 40px;
+}
+
+.sizing {
+    height: 150px;
+    width: 150px;
+}
+
+.page-height {
+    min-height: 100vh;
+}
+
+.center {
+    text-align: center;
+}
+
+.containerPadding {
+    padding-top: 25vh;
+}
+
+.fontFamily{
+    font-family: "Helvetica";
+}

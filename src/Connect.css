@@ -1,0 +1,57 @@
+.connectPage {
+    margin-top: 75vh;
+    min-height: 75vh;
+    background-color: #192d9e;
+}
+
+.textColor {
+    color: black;
+}
+
+.centerConnect {
+    text-align: center;
+    color: black;
+}
+
+.padConnectTitle {
+    padding-top: 25px;
+}
+.padConnectDiv {
+    padding-top: 100px;
+}
+
+.padIcon {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+
+.size {
+    height: 50px;
+    width: 50px;
+}
+
+.connectStyle{
+    padding-bottom: 50px;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 25px;
+}
+
+.padColumnContent {
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+.containterCustomPadding{
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    padding-bottom: 10px;
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (min-width: 768px) {
+    div.hideOnLarge {
+      display: none;
+    }
+}
